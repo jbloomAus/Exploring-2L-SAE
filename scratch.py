@@ -40,6 +40,7 @@ import plotly.express as px
 import pandas as pd
 
 # %%
+# %%
 DTYPES = {"fp32": torch.float32, "fp16": torch.float16, "bf16": torch.bfloat16}
 SAVE_DIR = Path("/workspace/1L-Sparse-Autoencoder/checkpoints")
 class AutoEncoder(nn.Module):
